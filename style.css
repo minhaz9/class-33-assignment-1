@@ -1,0 +1,86 @@
+.navbar .container-xxl .collapse ul li a {
+  color: black;
+}
+
+.navbar .container-xxl .collapse ul li ul {
+  display: inline-block;
+  transform: translateY(4rem);
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+  padding: 0;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.137);
+}
+
+.navbar .container-xxl .collapse ul li ul li {
+  display: block;
+  margin: 0 0 !important;
+}
+
+.navbar .container-xxl .collapse ul li ul li a {
+  padding-right: 0.5rem;
+  font-weight: 500;
+  transition: .4s;
+  width: 13rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  display: block;
+}
+
+.navbar .container-xxl .collapse ul li ul li a:hover {
+  background: #682868;
+  letter-spacing: .1rem;
+}
+
+.navbar .container-xxl .collapse ul li:hover a {
+  color: red;
+}
+
+.navbar .container-xxl .collapse ul li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0rem);
+}
+
+.banner {
+  background-image: url(./img/download.jpg);
+  background-size: cover;
+  padding: 8.5rem 0;
+  position: fixed;
+  width: 100%;
+}
+
+.dak {
+  background: black;
+  width: 2rem;
+  height: 0.05rem;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
+.follow {
+  position: relative;
+  top: 5rem;
+}
+
+.follow_icon {
+  display: inline-block;
+}
+
+.follow_icon ul li {
+  display: inline-block;
+  margin: 0 0.8rem;
+}
+
+.follow_icon ul li a {
+  color: #000;
+}
+
+.follow_icon ul li i {
+  transition: .4s;
+}
+
+.follow_icon ul li:hover i {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
